@@ -1,4 +1,4 @@
-git push时出现无权限问题：
+git push时出现无权限问题解决步骤：
 进入git bash界面：
 1、git config --global --list 验证邮箱地址与GitHub注册时是否一致
 
@@ -11,3 +11,4 @@ git push时出现无权限问题：
 4、在github中添加公钥
 
 5、测试是否已连接，ssh -T git@github.com
+
