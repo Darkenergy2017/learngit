@@ -49,4 +49,16 @@ git 操作步骤：
 		git commit -m “messgae”
 	2、误删文件管理器里的文件，可以从版本库里恢复；
 		git checkout -- file
-		
+
+9、远程仓库：
+	1、创建远程仓库：
+		1、ssh-keygen -t rsa -C "邮箱地址"
+		2、把产生的公钥添加到github账户里
+		3、在github创建新仓库
+	2、关联仓库，并推送：
+		1、git remote add origin git@gitgithub.com:"地址" //ssh加密方法，还有https协议
+		2、git push -u origin master
+	3、从远程仓库克隆：
+		1、先建好远程仓库；
+		2、git clone git@github.com：“地址”
+	
